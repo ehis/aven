@@ -1,0 +1,18 @@
+@value colors: "./colors.css";
+@value secondary-bg-color, variant-text-color from colors;
+
+
+.primaryBtn {
+  background-color: secondary-bg-color;
+  color: variant-text-color;
+  padding: 0.5rem 1.5rem;
+  border-radius: 40px;
+  font-size: 1rem;
+  font-weight: 700;
+  border: 0;
+  cursor: pointer;
+}
+
+.primaryBtn:hover {
+  opacity: 80%;
+}
